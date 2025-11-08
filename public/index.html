@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fact Check Your Friends</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Fact Check Your Friends</h1>
+      <p class="tag">Quick, sourced answers—built for bar chat.</p>
+    </header>
+
+    <section class="card">
+      <div class="input-row">
+        <input id="q" type="text" placeholder="e.g., Is tequila a stimulant?"/>
+        <button id="go">Check</button>
+      </div>
+      <div class="controls-row">
+        <label class="spice">Keep it spicy:
+          <select id="spice">
+            <option value="off">Off</option>
+            <option value="light">Light</option>
+            <option value="extra">Extra</option>
+          </select>
+        </label>
+        <button id="bs" title="Re-check with maximum skepticism">🧪 Call BS</button>
+      </div>
+      <div class="hint">Press Enter to submit. Tap 🔊 to hear it.</div>
+    </section>
+
+    <section id="result" class="card hidden"></section>
+
+    <footer>
+      <small>Pro tip: keep it short & specific for fastest results.</small>
+    </footer>
+  </main>
+
+  <script src="/app.js" type="module"></script>
+</body>
+</html>
