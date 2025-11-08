@@ -1,0 +1,5 @@
+{
+  "name": "Fact Check Your Friends",
+  "description": "A fast, no-nonsense fact checker for casual conversation. Given a short claim, it verifies it quickly with current, reputable sources and provides a concise, easy-to-understand answer.",
+  "requestFramePermissions": []
+}
